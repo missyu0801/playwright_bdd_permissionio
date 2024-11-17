@@ -70,5 +70,3 @@ To generate an HTML report for your test run, use this command:
 ```bash
 behave --format=html --outfile=report.html
 ```
-This will create a file named report.html in your project directory containing the detailed test results.
-![image](https://github.com/user-attachments/assets/a32116be-c915-456a-8420-cc1503e886ec)
