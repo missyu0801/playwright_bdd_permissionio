@@ -66,6 +66,7 @@ This project follows Behavior-Driven Development (BDD) principles and is organiz
 - **Utils:** I have added utility files with helper functions, such as methods for working with locators
 
 **The Project Structure**
+
 ![Project Structure](readme/project_structure.png)
 
 ## Run the test
