@@ -1,4 +1,4 @@
-# Permission io Automation test Exam
+# Permission io Automation test Exam by Hazel Yu
 Automated testing of the Permission.io website, particularly on the login screen for reCAPTCHA handling. I chose Option 1: Manual Intervention of script because the reCAPTCHA verification process involves user-specific interaction, which cannot be fully automated without violating Google's terms of service 
 
 ![Demo GIF](readme/demorun.gif)
@@ -26,12 +26,7 @@ Follow these steps to set up the project locally:
 
 ### 1. Clone the repository
 
-First, clone the repository to your local machine using the following command:
-
-```bash
-git clone https://github.com/your-username/playwright-python-project.git
-cd playwright-python-project
-```
+First, download or clone this repository to your local machine 
 
 ### 2. Set up a virtual environment (Optional but recommended)
 It's recommended to create a virtual environment to keep your dependencies isolated.
