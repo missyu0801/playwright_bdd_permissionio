@@ -65,12 +65,13 @@ This project follows Behavior-Driven Development (BDD) principles and is organiz
 
 - **Utils:** I have added utility files with helper functions, such as methods for working with locators
 
+**The Project Structure**
 ![Project Structure](readme/project_structure.png)
 
 ## Run the test
 
 ## Run all test in the feature folder
-To run the BDD tests written in Gherkin syntax with Behave, Go to the project directory root *e.g "C:\<directory_name>\permissionio>"* and use the following command:
+To run the BDD tests written in Gherkin syntax with Behave, Open Your Terminal(mac/OS) or CMD(windows), also you can run the project in your chosen IDE. Go to the project directory root *e.g "C:\<directory_name>\permissionio>"* and use the following command:
 ```bash
 behave
 ```
