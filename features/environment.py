@@ -1,5 +1,6 @@
 #This will be the setup and teardown
 from playwright.sync_api import sync_playwright
+import time
 
 def before_feature(context, feature):
     #setup
@@ -16,4 +17,5 @@ def after_feature(context, feature):
     context.page.close()
     context.browser.close()
     context.playwright.stop()
+    time.sleep(2)
 

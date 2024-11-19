@@ -96,8 +96,8 @@ def solve_recaptcha(context, recaptcha):
             captcha_checkbox.click()
 
         else:
-           print("Waiting for manual intervention. Please solve the CAPTCHA manually.", flush=True)
-        # Wait for the user to manually solve the CAPTCHA
+            # Wait for the user to manually solve the CAPTCHA
+            context.page.wait_for_selector('#recaptcha-verify-button', state='visible')
 
     except Exception as e:
         print(f"Failed to interact with CAPTCHA: {str(e)}")
